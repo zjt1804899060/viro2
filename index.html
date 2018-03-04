@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" id="htmlBox">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="font/style.css">
+</head>
+<body>
+    <div class="content">
+        <!--头部-->
+        <section class="Scratch_header">
+            <div class="Gradient">
+                <span><</span>
+            </div>
+            <div class="Musicbtn">
+                <i class="iconfont icon-off-music Gegg_Stopmusic"></i>
+                <i class="iconfont icon-on-music Gegg_Playmusic"></i>
+                <i class="iconfont icon-music-two MusicTop"></i>
+                <i class="iconfont icon-music-one MusicMid"></i>
+                <i class="iconfont icon-music-two MusicBot"></i>
+            </div>
+            <div class="lamp">
+                <div class="lamp_1">
+                    <div class="lampbright_1"></div>
+                </div>
+                <div class="lamp_2">
+                    <div class="lampbright_2"></div>
+                </div>
+                <div class="lamp_3">
+                    <div class="lampbright_3"></div>
+                </div>
+                <div class="lamp_4">
+                    <div class="lampbright_4"></div>
+                </div>
+                <div class="lamp_5">
+                    <div class="lampbright_5"></div>
+                </div>
+            </div>
+        </section>
+        <!--刮刮乐-->
+        <div class="Scratch">
+            <p class="prize"></p>
+            <canvas class="myCanvas"></canvas>
+        </div>
+        <!--中奖消息-->
+        <div class="Scratchmessage">
+            <div class="win_prize">
+                <a href="##">查看我的奖品</a>
+            </div>
+           <div class="Scratchmessage_chance chance">你还有一次机会</div>
+            <div class="fang"></div>
+            <div class="Scratchmessage_message">
+                <img src="images/Scratch_trumprt.png" alt="">
+                <div class="Winning_information">
+                    <span>恭喜157****8521用户获得1等奖</span>
+                    <span>恭喜157****8521用户获得3等奖</span>
+                </div>
+
+            </div>
+        </div>
+        <!--奖励-->
+        <div class="Scratch_reward">
+            <!--获取奖励-->
+            <div class="Get_rewards">
+                <div class="reward_title"><span>活动规则及奖励</span></div>
+                <!--获取规则-->
+                <div class="reward_tip">
+                    <ul>
+                        <li>1.活动期间可按照消费者购物次数获得抽奖机会并且支付金额最大的订单进行返利。</li>
+                        <li>2.手机支付电子券获得的优惠券可在活动时期叠加使用，有效时间2017.9.1-2017.9.15。</li>
+                        <li>3.用户领奖需到线下指定地点领取，如活动结束后没领取者视为放弃奖品。</li>
+                        <li>领取地址：广州品畅天河区01路2C08</li>
+                    </ul>
+                </div>
+                <!--线-->
+                <div class="Scratch_line"></div>
+            </div>
+            <!--奖品-->
+            <div class="Prize">
+                <ul>
+                    <li>一等奖：lv液晶电视</li>
+                    <li>二等奖：苹果手提电脑</li>
+                    <li>三等奖：小米手机</li>
+                    <li>特等奖：小米跑步手环/旅行手提包/小型压缩真空袋/旅行水杯（可任选一种）</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <audio src="" class="Hammer_hit" autoplay="autoplay" style="display: none" ></audio>
+    <audio src="" class="bgm" autoplay="autoplay" ></audio>
+</body>
+<script src="js/jquery.min.js"></script>
+<script src="js/index.js"></script>
+</html>

@@ -1,0 +1,703 @@
+/*复位样式*/
+body,
+a,
+textarea,
+input {
+  font-family: SourceHanSans, Microsoft YaHei, "宋体", Verdana, Geneva, sans-serif;
+}
+html,
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+th,
+td,
+hr,
+blockquote {
+  padding: 0;
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+}
+html,
+body {
+  font-size: 16px;
+}
+/*公共样式*/
+/*header*/
+.content {
+  overflow: hidden;
+  width: 100%;
+  background: url(../images/Scratch_bgimg.png)center -2.5rem;
+  background-size: cover;
+}
+.content .Scratch_header {
+    position: relative;
+    background: url(../images/Scratch_header.png);
+    background-size: cover;
+    height: 8.75rem;
+}
+.Scratch_header .Gradient {
+    overflow: hidden;
+    height: 2.8rem;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.79) 0%,rgba(0,0,0,0) 99%,rgba(0,0,0,0) 100%);
+}
+.content .Scratch_header .Gradient span {
+    position: relative;
+    display: block;
+    font-size: 1.6rem;
+    margin-left: 0.5rem;
+    color: #fff;
+    width:2rem;
+    text-align: center;
+    z-index: 5;
+}
+.Scratch_header .Musicbtn i {
+    /*音乐动画*/
+    position: absolute;
+    top: 3rem;
+    right: 3rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff !important;
+    z-index: 5;
+}
+.Scratch_header .Musicbtn .Gegg_Stopmusic {
+    display: none;
+}
+.Scratch_header .Musicbtn .Gegg_Playmusic {
+    animation: Gegg_music 2s infinite;
+}
+.Scratch_header .Musicbtn .MusicTop {
+    font-size: 0.7rem;
+    top: 1.5rem;
+    right: 3rem;
+    animation: MusicTop 1.3s infinite;
+    animation-iteration-count: 9999;
+}
+.Scratch_header .Musicbtn .MusicMid {
+    top: 2.5rem;
+    right: 2.5rem;
+    font-size: 0.7rem;
+    animation: MusicMid 1s infinite;
+}
+.Scratch_header .Musicbtn .MusicBot {
+    top: 3rem;
+    right: 1.5rem;
+    font-size: 0.7rem;
+    animation: MusicBot 1s infinite ;
+
+}
+/*灯*/
+.content .Scratch_header .lamp{
+    position: relative;
+}
+.content .Scratch_header .lamp .lamp_1{
+    position: absolute;
+    width: 3.12rem;
+    height:11.8rem;
+    top:-1.2rem;
+    left: 0.4rem;
+    background: url(../images/lamp1.png)center no-repeat;
+    background-size: 100%;
+    background-position-y:5.9rem;
+    z-index: 3;
+    animation: lamp_1 2.8s ;
+}
+.content .Scratch_header .lamp .lamp_1 .lampbright_1{
+    width: 3.12rem;
+    height:11.8rem;
+    background: url(../images/lampbright_1.png)center no-repeat;
+    background-size: 100%;
+    background-position-y:5.9rem;
+    z-index: 3;
+    animation: lampbright_1 2.5s  ease infinite;
+}
+.content .Scratch_header .lamp .lamp_2{
+    position: absolute;
+    width: 3.12rem;
+    height:11.8rem;
+    top:-0.51rem;
+    left: 4rem;
+    background: url(../images/lamp2.png)center no-repeat;
+    background-size: 100%;
+    background-position-y:5.9rem;
+    z-index: 3;
+    animation: lamp_2 2s ;
+}
+.content .Scratch_header .lamp .lamp_2 .lampbright_2{
+    width: 3.12rem;
+    height:11.8rem;
+    background: url(../images/lampbright_2.png)center no-repeat;
+    background-size: 100%;
+    background-position-y:5.9rem;
+    z-index: 3;
+    animation: lampbright_2 4s  ease infinite;
+}
+.content .Scratch_header .lamp .lamp_3{
+    position: absolute;
+    width: 3.12rem;
+    height:11.8rem;
+    top:-0.05rem;
+    left: 6.5rem;
+    background: url(../images/lamp3.png)center no-repeat;
+    background-size: 100%;
+    background-position-y:5.9rem;
+    z-index: 3;
+    animation: lamp_3 1.5s ;
+}
+.content .Scratch_header .lamp .lamp_3 .lampbright_3{
+    width: 3.12rem;
+    height:11.8rem;
+    background: url(../images/lampbright_3.png)center no-repeat;
+    background-size: 100%;
+    background-position-y:5.9rem;
+    z-index: 3;
+    animation: lampbright_3 4s  ease infinite;
+}
+.content .Scratch_header .lamp .lamp_4{
+    position: absolute;
+    width: 3.12rem;
+    height:11.8rem;
+    top:-0.1rem;
+    left: 10.5rem;
+    background: url(../images/lamp4.png)center no-repeat;
+    background-size: 100%;
+    background-position-y:5.9rem;
+    z-index: 3;
+    animation: lamp_4 2.2s ;
+}
+.content .Scratch_header .lamp .lamp_4 .lampbright_4{
+    width: 3.12rem;
+    height:11.8rem;
+    background: url(../images/lampbright_4.png)center no-repeat;
+    background-size: 100%;
+    background-position-y:5.9rem;
+    z-index: 3;
+    animation: lampbright_4 4s  ease infinite;
+}
+.content .Scratch_header .lamp .lamp_5{
+    position: absolute;
+    width: 3.12rem;
+    height:11.8rem;
+    top:-1.1rem;
+    left: 16rem;
+    background: url(../images/lamp5.png)center no-repeat;
+    background-size: 100%;
+    background-position-y:5.9rem;
+    z-index: 3;
+    animation: lamp_5 2.5s ;
+}
+.content .Scratch_header .lamp .lamp_5 .lampbright_5{
+    width: 3.12rem;
+    height:11.8rem;
+    background: url(../images/lampbright_5.png)center no-repeat;
+    background-size: 100%;
+    background-position-y:5.9rem;
+    z-index: 3;
+    animation: lampbright_5 4s  ease infinite;
+}
+/*刮刮乐*/
+.content .Scratch {
+    position: relative;
+    overflow: hidden;
+    width: 19.2rem;
+    height: 9rem;
+    background:url(../images/Scratch_Scratch.png );
+    background-size: cover;
+    margin: 3.5rem auto 1rem auto;
+}
+.content .Scratch .prize{
+    position: absolute;
+    margin: 0.48em 1rem;
+    width:17.1rem;
+    height: 8.125rem;
+    background: #ccc;
+    text-align: center;
+    line-height:8.125rem;
+    color: orange;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    z-index: 1;
+}
+.content .Scratch .myCanvas{
+    position: absolute;
+    margin: 0.48em 1rem;
+
+    z-index:1;
+}
+/*中奖消息*/
+.content .Scratchmessage .win_prize {
+    text-align: center;
+}
+.content .Scratchmessage .win_prize a{
+    text-decoration: underline;
+    color: #fffb2a;
+    font-size: 0.8rem;
+}
+.content .Scratchmessage .Scratchmessage_chance {
+    display: block;
+    width: 12.5rem;
+    height: 2.25rem;
+    background: #ffe8b2;
+    border-radius: 5rem;
+    outline: none;
+    margin: 1rem auto 0 auto;
+    text-align: center;
+    line-height: 2.25rem;
+    font-weight: bold;
+    color: #272f44;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/*有机会抽奖*/
+.content .Scratchmessage .Scratchmessage_chance.chance{
+    box-shadow: -0.1rem -0.2rem #f5bd55 inset;
+}
+/*点击时的样式*/
+.content .Scratchmessage .Scratchmessage_chance.click {
+    box-shadow: 0.1rem 0.2rem #f5bd55 inset;
+}
+
+.content .Scratchmessage{
+    overflow: hidden;
+}
+.content .Scratchmessage .fang {
+  position: relative;
+  width: 5rem;
+  height: 1.3rem;
+  background: #ffe8b2;
+  margin: 0 auto;
+}
+.content .Scratchmessage .fang:before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 1.3rem;
+  height: 1.3rem;
+  background: #f74a43;
+  border-radius: 50%;
+  left: -0.9rem;
+}
+.content .Scratchmessage .fang:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 1.3rem;
+  height: 1.3rem;
+  background: #f74a43;
+  border-radius: 50%;
+  right: -0.9rem;
+}
+.content .Scratchmessage .Scratchmessage_message {
+  position: relative;
+  overflow: hidden;
+  width: 19.2rem;
+  height: 2.5rem;
+  background: #ffe8b2;
+  margin: -1px auto 0 auto;
+  border-radius: 3rem / 0.15rem;
+}
+.content .Scratchmessage .Scratchmessage_message img {
+  position: absolute;
+  width: 2.2rem;
+  height: 2.1rem;
+    text-align: left;
+  margin-top: 0.2rem;
+  margin-left: 0.6rem;
+}
+.content .Scratchmessage .Scratchmessage_message .Winning_information{
+    position: absolute;
+    width:100%;
+    top: 0;
+    transition: all 1s ;
+}
+.content .Scratchmessage .Scratchmessage_message .winning_information{
+    position: absolute;
+    width:100%;
+    transition: all 1s ;
+}
+.content .Scratchmessage .Scratchmessage_message span {
+    display: block;
+    width:100%;
+    line-height: 2.5rem;
+    text-align: center;
+    font-size: 0.75rem;
+    color: #777777;
+}
+/*奖励*/
+.content .Scratch_reward{
+    width: 19.2rem;
+    margin: 1rem auto 0.7rem auto;
+    background: #ffe8b2;
+    border-radius: 1rem ;
+}
+/*获取奖励*/
+.content .Scratch_reward .Get_rewards{
+    position: relative;
+}
+.content .Scratch_reward .Get_rewards .reward_title{
+    width: 6.5rem;
+    height: 2.6rem;
+    background: url(../images/Scratch_title.png);
+    background-size: cover;
+    transform: translate(0,-0.23rem);
+    margin-left: 1rem;
+    text-indent:0.6rem;
+    line-height: 2.6rem;
+    font-size: 0.8rem;
+    color: #fff;
+}
+.content .Scratch_reward .Get_rewards:before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 1rem solid transparent;
+    border-left: 2rem solid #f74a43;
+    border-bottom: 1rem solid transparent;
+    bottom: -1rem;
+    left: -0.5rem;
+}
+.content .Scratch_reward .Get_rewards:after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 1rem solid transparent;
+    border-right: 2rem solid #f74a43;
+    border-bottom: 1rem solid transparent;
+    bottom: -1rem;
+    right: -0.5rem;
+}
+/*获取规则*/
+.content .Scratch_reward .Get_rewards .reward_tip{
+    overflow: hidden;
+    width: 19.2rem;
+    margin: 1rem auto 0 auto;
+}
+.content .Scratch_reward .Get_rewards .reward_tip ul{
+    width:17rem;
+    font-size: 0.75rem;
+    margin: 0 auto 1.5rem auto;
+}
+.content .Scratch_reward .Get_rewards .reward_tip ul li{
+    margin-bottom: 0.5rem;
+    color: #777777;
+}
+/*线*/
+.content .Scratch_reward .Get_rewards .Scratch_line{
+    width:80%;
+    border-bottom: 1px solid #f5d68e;
+    margin: 0 auto;
+}
+/*奖品*/
+.content .Scratch_reward  .Prize{
+    overflow: hidden;
+}
+.content .Scratch_reward  .Prize ul{
+    width:17rem;
+    font-size: 0.9rem;
+    margin: 1.5rem auto;
+}
+.content .Scratch_reward .Prize ul li{
+    margin-bottom: 0.5rem;
+    color: #777777;
+}
+/*音乐*/
+@keyframes Gegg_music {
+    /*播放音乐icon动画*/
+    0% {
+        transform: rotate(0);
+    }
+    50% {
+        transform: rotate(-40deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+@keyframes MusicTop {
+    /*上方的的音符*/
+    0% {
+        transform: tranlate(0, 0) rotate(0deg) scale(1);
+        opacity: 1;
+    }
+    25% {
+        transform: translate(-0.15rem, 0.1rem) rotate(-20deg) scale(0.9);
+        opacity: 0.8;
+    }
+    50% {
+        transform: translate(-0.3rem, 0.2rem) rotate(0deg) scale(0.8);
+        opacity: 0.6;
+    }
+    75% {
+        transform: translate(-0.45rem, 0.3rem) rotate(-20deg) scale(0.7);
+        opacity: 0.4;
+    }
+    100% {
+        transform: translate(-0.6rem, 0.4rem) rotate(0deg) scale(0.6);
+        opacity: 0;
+    }
+}
+@keyframes MusicMid {
+    /*中间的的音符*/
+    0% {
+        transform: tranlate(0rem, 0rem) rotate(40deg) scale(0.5);
+        opacity: 1;
+    }
+    25% {
+        transform: translate(0.25rem, -0.25rem) rotate(-20deg) scale(0.9);
+        opacity: 0.8;
+    }
+    50% {
+        transform: translate(0.5rem, -0.5rem) rotate(0deg) scale(1.3);
+        opacity: 0.6;
+    }
+    75% {
+        transform: translate(0.75rem, -0.75rem) rotate(-20deg) scale(1.6);
+        opacity: 0.4;
+    }
+    100% {
+        transform: translate(1rem, -1rem) rotate(0deg) scale(1.9);
+        opacity: 0;
+    }
+}
+@keyframes MusicBot {
+    /*下方的的音符*/
+    0% {
+        transform: tranlate(0,0) rotate(40) scale(1);
+        opacity: 1;
+    }
+    25% {
+        transform: translate(-0.1rem, 0.15rem) rotate(-20deg) scale(0.9);
+        opacity: 0.8;
+    }
+    50% {
+        transform: translate(0rem, 0.3rem) rotate(0deg) scale(0.8);
+        opacity: 0.6;
+    }
+    75% {
+        transform: translate(0.1rem, 0.45rem) rotate(-20deg) scale(0.7);
+        opacity: 0.4;
+    }
+    100% {
+        transform: translate(0.2rem, 0.6rem) rotate(0deg) scale(0.5);
+        opacity: 0;
+    }
+}
+/*灯动效*/
+@keyframes lamp_1 {
+    0% {
+        transform:rotate(0deg);
+    }
+    20% {
+        transform:  rotate(-40deg);
+
+    }
+    50% {
+        transform: rotate(40deg);
+    }
+    70% {
+        transform: rotate(-20deg);
+    }
+    90% {
+        transform: rotate(20deg);
+    }
+    100% {
+        transform:  rotate(0deg);
+    }
+}
+@keyframes lampbright_1 {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    70% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes lamp_2 {
+    0% {
+        transform:rotate(0deg);
+    }
+    20% {
+        transform:  rotate(30deg);
+
+    }
+    50% {
+        transform: rotate(-30deg);
+    }
+    70% {
+        transform: rotate(15deg);
+    }
+    90% {
+        transform: rotate(-15deg);
+    }
+    100% {
+        transform:  rotate(0deg);
+    }
+}
+@keyframes lampbright_2 {
+    0% {
+        opacity: 1;
+    }
+    30% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes lamp_3 {
+    0% {
+        transform:rotate(0deg);
+    }
+    25% {
+        transform:  rotate(-20deg);
+
+    }
+    50% {
+        transform: rotate(20deg);
+    }
+    70% {
+        transform: rotate(-10deg);
+    }
+    90% {
+        transform: rotate(10deg);
+    }
+    100% {
+        transform:  rotate(0deg);
+    }
+}
+@keyframes lampbright_3 {
+    0% {
+        opacity: 1;
+    }
+    10% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes lamp_4 {
+    0% {
+        transform:rotate(0deg);
+    }
+    20% {
+        transform:  rotate(-35deg);
+
+    }
+    50% {
+        transform: rotate(35deg);
+    }
+    70% {
+        transform: rotate(-20deg);
+    }
+    90% {
+        transform: rotate(20deg);
+    }
+    100% {
+        transform:  rotate(0deg);
+    }
+}
+@keyframes lampbright_4 {
+    0% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 1;
+    }
+    70% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes lamp_5 {
+    0% {
+        transform:rotate(0deg);
+    }
+    20% {
+        transform:  rotate(45deg);
+
+    }
+    50% {
+        transform: rotate(-45deg);
+    }
+    70% {
+        transform: rotate(25deg);
+    }
+    90% {
+        transform: rotate(-25deg);
+    }
+    100% {
+        transform:  rotate(0deg);
+    }
+}
+@keyframes lampbright_5 {
+    0% {
+        opacity: 1;
+    }
+    20% {
+        opacity: 0;
+    }
+    45% {
+        opacity: 1;
+    }
+    85% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

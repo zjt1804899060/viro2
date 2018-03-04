@@ -1,0 +1,300 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?yykh0t');
+  src:  url('fonts/icomoon.eot?yykh0t#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?yykh0t') format('truetype'),
+    url('fonts/icomoon.woff?yykh0t') format('woff'),
+    url('fonts/icomoon.svg?yykh0t#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-music-one:before {
+  content: "\e914";
+}
+.icon-music-two:before {
+  content: "\e915";
+}
+.icon-off-music:before {
+  content: "\e916";
+}
+.icon-on-music:before {
+  content: "\e91b";
+}
+.icon-map-details:before {
+  content: "\e911";
+  color: #fff;
+}
+.icon-map-go:before {
+  content: "\e912";
+  color: #fff;
+}
+.icon-map-panorama:before {
+  content: "\e913";
+  color: #fff;
+}
+.icon-all-return:before {
+  content: "\e90a";
+  color: #fff;
+}
+.icon-map-guid:before {
+  content: "\e903";
+  color: #fff;
+}
+.icon-map-map:before {
+  content: "\e904";
+  color: #fff;
+}
+.icon-map-activity:before {
+  content: "\e905";
+  color: #fff;
+}
+.icon-map-index:before {
+  content: "\e906";
+  color: #fff;
+}
+.icon-map-logout:before {
+  content: "\e907";
+  color: #fff;
+}
+.icon-map-coupon:before {
+  content: "\e908";
+  color: #fff;
+}
+.icon-map-voucher:before {
+  content: "\e909";
+  color: #fff;
+}
+.icon-map-location:before {
+  content: "\e901";
+  color: #842321;
+}
+.icon-map-c-catering:before {
+  content: "\e90b";
+  color: #fe6367;
+}
+.icon-map-c-recommended:before {
+  content: "\e90c";
+  color: #fe6367;
+}
+.icon-map-c-exit:before {
+  content: "\e90d";
+  color: #fe6367;
+}
+.icon-map-c-red-envelopes:before {
+  content: "\e90e";
+  color: #fe6367;
+}
+.icon-map-c-road-sign:before {
+  content: "\e90f";
+  color: #fe6367;
+}
+.icon-map-c-service-point:before {
+  content: "\e93b";
+  color: #fe6367;
+}
+.icon-map-c-shopping:before {
+  content: "\e93c";
+  color: #fe6367;
+}
+.icon-map-c-theatre:before {
+  content: "\e93d";
+  color: #fe6367;
+}
+.icon-map-c-ticket:before {
+  content: "\e93e";
+  color: #fe6367;
+}
+.icon-map-c-wc:before {
+  content: "\e93f";
+  color: #fe6367;
+}
+.icon-map-u-exit:before {
+  content: "\e940";
+  color: #4dffdd;
+}
+.icon-map-u-red-envelope:before {
+  content: "\e941";
+  color: #ff5050;
+}
+.icon-map-u-road-sign:before {
+  content: "\e942";
+  color: #934d00;
+}
+.icon-map-u-service-point:before {
+  content: "\e943";
+  color: #5290ff;
+}
+.icon-map-u-ticket:before {
+  content: "\e944";
+  color: #811c21;
+}
+.icon-map-u-wc:before {
+  content: "\e945";
+  color: #5cc9ff;
+}
+.icon-map-u-catering:before {
+  content: "\e946";
+  color: #ffb926;
+}
+.icon-map-u-shopping:before {
+  content: "\e947";
+  color: #b1ff29;
+}
+.icon-map-u-theatre:before {
+  content: "\e948";
+  color: #000049;
+}
+.icon-map-om:before {
+  content: "\e97e";
+  color: #fff;
+}
+.icon-map-u-recommended:before {
+  content: "\e97f";
+  color: #a855ff;
+}
+.icon-map-exit:before {
+  content: "\e910";
+  color: #626262;
+}
+.icon-map-red-envelope:before {
+  content: "\e917";
+  color: #626262;
+}
+.icon-map-service-point:before {
+  content: "\e938";
+  color: #626262;
+}
+.icon-map-street-signs:before {
+  content: "\e939";
+  color: #626262;
+}
+.icon-map-catering:before {
+  content: "\e93a";
+  color: #626262;
+}
+.icon-map-road:before {
+  content: "\e937";
+  color: #626262;
+}
+.icon-news-heart_empty:before {
+  content: "\e935";
+}
+.icon-news-heart_full:before {
+  content: "\e936";
+}
+.icon-map-shopping:before {
+  content: "\e918";
+  color: #626262;
+}
+.icon-map-theatre:before {
+  content: "\e91d";
+  color: #626262;
+}
+.icon-map-ticket:before {
+  content: "\e91e";
+  color: #626262;
+}
+.icon-map-extend:before {
+  content: "\e922";
+  color: #626262;
+}
+.icon-map-shrink:before {
+  content: "\e923";
+  color: #626262;
+}
+.icon-map-recommended:before {
+  content: "\e924";
+  color: #626262;
+}
+.icon-map-wc:before {
+  content: "\e933";
+  color: #626262;
+}
+.icon-map-enlarge:before {
+  content: "\e931";
+}
+.icon-map-narrow:before {
+  content: "\e932";
+}
+.icon-icon-label:before {
+  content: "\e925";
+  color: #fff;
+}
+.icon-map-playsound:before {
+  content: "\e926";
+  color: #4c4c4c;
+}
+.icon-map-getlocation:before {
+  content: "\e928";
+  color: #eb6164;
+}
+.icon-product-chart2:before {
+  content: "\e929";
+  color: #fff;
+}
+.icon-map-stopsound:before {
+  content: "\e92a";
+  color: #4c4c4c;
+}
+.icon-map-cancel:before {
+  content: "\e92b";
+  color: #4c4c4c;
+}
+.icon-coupon-all:before {
+  content: "\e92c";
+  color: #fff;
+}
+.icon-chart:before {
+  content: "\e919";
+  color: #dadada;
+}
+.icon-time:before {
+  content: "\e91a";
+  color: #dadada;
+}
+.icon-info:before {
+  content: "\e91c";
+  color: #dadada;
+}
+.icon-evaluate:before {
+  content: "\e91f";
+  color: #fff;
+}
+.icon-index:before {
+  content: "\e920";
+  color: #fff;
+}
+.icon-footprint:before {
+  content: "\e921";
+  color: #fff;
+}
+.icon-map-search:before {
+  content: "\e900";
+  color: #c4c4c4;
+}
+.icon-map-column:before {
+  content: "\e902";
+  color: #fff;
+}
+.icon-star-empty:before {
+  content: "\e9d7";
+}
+.icon-star-full:before {
+  content: "\e9d9";
+}
